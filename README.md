@@ -72,11 +72,11 @@ To make the test meaningful, the data includes traps:
 | 2 | No secrets in code | Jira credentials load from `.env` via python-dotenv; only `.env.example` (placeholders) is committed. The token is never printed or logged. |
 | 3 | `.gitignore` | Excludes `.env`, `/output/`, `/packets/`, `/logs/`, `*.xlsx`, `*.log`, `__pycache__/`, and venv folders. Verified with `git status`. |
 | 4 | Least-privilege integration | Designed for a dedicated free Jira account scoped to one project. The script needs only *Browse* and *Create issues*. |
-| 5 | Input validation | `validation.py` checks exact columns, ID formats, allowed values, date formats, duplicate keys, manager references, entitlement/application consistency, and impossible future-dated logins. It reports
+| 5 | Input validation | `validation.py` checks exact columns, ID formats, allowed values, date formats, duplicate keys, manager references, entitlement/application consistency, and impossible future-dated logins. It reports **every** error with CSV line numbers and stops with exit code 2.
 | 6 | Formula-injection protection | Every string cell starting with `=`, `+`, `-`, `@`, tab, or CR gets a leading apostrophe before any CSV/Excel write. Numbers and dates are left alone. Tested with a planted `=HYPERLINK(...)` username. |
 | 7 | Safe logging | `logs/audit.log` records `timestamp \| action \| record_count \| sha256` using IDs only. A scan confirmed zero names or usernames appear in the log. |
 | 8 | Integrity check | SHA-256 of each input is recorded at the start of each run and included in the report's *Input Integrity* sheet. |
-| 9 | Separate packets per manager | Each packet contains only the reviewer's direct reports, and the script **aborts** if any row would violate that. Teams of terminated managers escalate one level up. Orphans go to an IAM-only packet. |
+| 9 | Separate packets per manager | Each packet contains only the reviewer's direct reports, and the script **aborts** if any row would violate that. Teams of terminated managers escalate up the chain to the nearest active manager (tested two levels deep). Orphans go to an IAM-only packet. |
 | 10 | Confidentiality marking | Every output carries the marking: Excel (in-sheet banner and print header), CSV (first line), PDF job aid, dashboard, and Jira tickets. |
 | 11 | Local-only dashboard | `.streamlit/config.toml` binds to `127.0.0.1`. The app **refuses to render** on any other bind address, and the Deploy button is hidden. |
 | 12 | Dependency security | Versions pinned in `requirements.txt`; pip-audit and bandit results are [below](#security-scan-results). |
@@ -87,18 +87,29 @@ To make the test meaningful, the data includes traps:
 - **Packets are tamper-checked.** Each issued packet's row IDs go into `packets/manifest.json`. A returned packet with rows added or deleted, or a changed reviewer, is rejected.
 - **Packets are protected.** Sheets are locked except the Decision, Justification, and sign-off cells. This is an integrity aid, not a security boundary.
 - **Jira calls are hardened.** HTTPS is required, there's a request timeout, and `Retry-After` is honored on rate limits.
-- **Ticketing is idempotent.** Each ticket carries a campaign-scoped label, so rerunning `create_tickets.py --live` creates zero duplicates. This was tested against a mock Jira server.
+- **Ticketing is idempotent.** Each ticket carries a campaign-scoped label, so rerunning `create_tickets.py --live` creates zero duplicates. Verified against live Jira Cloud: 30 tickets created, and a rerun created 0 duplicates.
 
 ## Setup
 
-Requires Python 3.11+.
+Requires Python 3.11+ (tested on 3.12 and 3.14, Linux and Windows).
 
-```bash
-git clone <your-repo-url> access-risk-analyzer
+**Windows (PowerShell):**
+```powershell
+git clone https://github.com/Connor-Metzger/access-risk-analyzer.git
 cd access-risk-analyzer
 python -m venv .venv
-source .venv/bin/activate          # Windows: .venv\Scripts\activate
-pip install -r requirements.txt    # add -r requirements-dev.txt for pip-audit/bandit
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+copy .env.example .env             # only needed for live Jira tickets
+```
+
+**Mac/Linux:**
+```bash
+git clone https://github.com/Connor-Metzger/access-risk-analyzer.git
+cd access-risk-analyzer
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 cp .env.example .env               # only needed for live Jira tickets
 ```
 
