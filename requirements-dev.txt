@@ -1,0 +1,4 @@
+# Security tooling (not needed at runtime)
+-r requirements.txt
+pip-audit==2.10.1
+bandit==1.9.4

@@ -1,0 +1,348 @@
+username,employee_id,application,entitlement,last_login_date
+jwashington,E10130,POS,POS: Cashier,2026-09-19
+bjackson,E10035,POS,POS: Cashier,2026-09-01
+mgarcia,E10101,POS,POS: Cashier,2026-06-25
+smerritt,E10013,Payroll,Payroll: Add Employee,2026-08-08
+ssmith,E10134,POS,POS: Void Transaction,2026-09-18
+nmorris,E10011,Accounts Payable,AP: Create Vendor,2026-08-22
+sfleming,E10149,POS,POS: Cashier,2026-08-11
+swolfe,E10153,POS,POS: Issue Refund,2026-09-03
+chogan,E10142,POS,POS: Cashier,2026-08-03
+jmack,E10088,POS,POS: Cashier,2026-09-04
+jduncan,E10185,POS,POS: Cashier,2026-09-04
+chodge,E10150,POS,POS: Store Manager Admin,2026-09-23
+amartin,E10018,Payroll,Payroll: View Employee,2026-05-03
+dschroeder,E10078,POS,POS: Cashier,2026-08-05
+cwilson,E10092,POS,POS: Cashier,2026-08-28
+dgordon,E10098,POS,POS: Cashier,2026-08-02
+mflores,E10099,Payroll,Payroll: View Employee,2026-08-25
+jbailey,E10019,Payroll,Payroll: View Employee,2026-08-04
+bcarr,E10136,POS,POS: Issue Refund,2026-08-30
+kgarrett,E10196,POS,POS: Cashier,2026-08-14
+arice,E10020,Payroll,Payroll: Add Employee,2026-09-15
+acrane,E10116,POS,POS: Store Manager Admin,2026-09-23
+jroth,E10065,Payroll,Payroll: Enter Timecards,2026-07-23
+ehughes,E10042,POS,POS: Cashier,2026-07-02
+msteele,E10144,POS,POS: Cashier,2026-08-28
+aali,E10062,POS,POS: Cashier,2026-08-28
+mpatton,E10012,Payroll,Payroll: View Employee,2026-08-21
+lhunt,E10126,POS,POS: Cashier,2026-08-06
+rharding,E10198,POS,POS: Cashier,2026-09-24
+msilva,E10007,Accounts Payable,AP: Enter Invoice,2026-08-20
+swilliams,E10046,POS,POS: Price Override,2026-08-19
+jspence,E10015,Payroll,Payroll: Enter Timecards,2026-03-09
+chahn,E10083,Payroll,Payroll: Enter Timecards,2026-08-01
+chahn,E10083,POS,POS: Issue Refund,2026-09-21
+mthompson,E10009,Accounts Payable,AP: Enter Invoice,2026-08-10
+dtaylor,E10093,POS,POS: Cashier,2026-09-20
+afletcher,E10147,POS,POS: Cashier,2026-09-24
+jbowers,E10187,POS,POS: Cashier,2026-08-26
+bmcgee,E10121,POS,POS: Cashier,2026-09-10
+crivera,E10039,POS,POS: Cashier,2026-08-25
+nscott,E10151,Payroll,Payroll: Enter Timecards,2026-09-04
+mreed,E10048,POS,POS: Issue Refund,2026-08-31
+mpatton,E10012,Payroll,Payroll: Approve Payroll,2026-08-21
+ccox,E10028,POS,POS: Price Override,2026-09-23
+rsalas,E10084,POS,POS: Issue Refund,2026-09-27
+cking,E10029,Payroll,Payroll: Enter Timecards,2026-08-24
+"=HYPERLINK(""https://example.invalid"",""Click me"")",E19999,POS,POS: Cashier,2026-09-12
+cdavis,E10152,POS,POS: Cashier,2026-08-27
+mlong,E10060,POS,POS: Cashier,2026-08-05
+ccox,E10028,POS,POS: Approve Cash Reconciliation,2026-09-23
+acrane,E10116,POS,POS: Cashier,2026-09-23
+bcarr,E10136,POS,POS: Void Transaction,2026-08-30
+wbernard,E10169,POS,POS: Issue Refund,2026-08-28
+awilson,E10049,POS,POS: Issue Refund,2026-09-30
+jroth,E10065,POS,POS: Void Transaction,2026-07-30
+brichardson,E10047,POS,POS: Void Transaction,2026-08-07
+rsalas,E10084,POS,POS: Cashier,2026-09-27
+tcline,E10058,POS,POS: Cashier,2026-09-02
+bmartin,E10091,POS,POS: Cashier,2026-08-25
+lwalters,E10031,POS,POS: Issue Refund,2026-08-22
+mbennett,E10100,POS,POS: Issue Refund,2026-09-22
+sharris,E10082,POS,POS: Store Manager Admin,2026-08-24
+dharrison,E10168,POS,POS: Void Transaction,2026-09-08
+jpetersen,E10045,POS,POS: Cashier,2026-09-23
+jbowers,E10187,POS,POS: Void Transaction,2026-08-26
+kcunningham,E10115,POS,POS: Cashier,2026-09-16
+jroth,E10065,POS,POS: Price Override,2026-07-30
+cchristensen,E10122,POS,POS: Cashier,2026-09-15
+asaunders,E10166,POS,POS: Cashier,2026-08-12
+ssmith,E10134,POS,POS: Price Override,2026-09-18
+harias,E10102,POS,POS: Cashier,2026-09-07
+dbentley,E10118,POS,POS: Void Transaction,2026-09-16
+crocha,E10090,POS,POS: Cashier,2026-09-01
+lwalters,E10031,POS,POS: Cashier,2026-08-22
+jsmith,E10014,Payroll,Payroll: Approve Payroll,2026-08-24
+amosley,E10072,POS,POS: Cashier,2026-08-10
+wshepard,E10003,POS,POS: Approve Cash Reconciliation,2026-08-01
+mhollis_old,E19998,Payroll,Payroll: Edit Pay Rate,2026-09-11
+mflores,E10099,Payroll,Payroll: Enter Timecards,2026-08-25
+wgardner,E10016,Payroll,Payroll: View Employee,2026-08-22
+dharrison,E10168,POS,POS: Price Override,2026-09-08
+vholland,E10188,POS,POS: Cashier,2026-09-16
+twilliams,E10165,POS,POS: Cashier,2026-09-01
+nscott,E10151,POS,POS: Price Override,2026-08-22
+wbernard,E10169,POS,POS: Void Transaction,2026-08-28
+amartin,E10018,Payroll,Payroll: Add Employee,2026-05-03
+dharrison,E10168,POS,POS: Cashier,2026-09-08
+amoreno,E10066,POS,POS: Issue Refund,2026-08-29
+lwallace,E10133,Payroll,Payroll: Enter Timecards,2026-08-04
+aking,E10178,POS,POS: Cashier,2026-09-20
+csmith,E10079,POS,POS: Cashier,2026-09-06
+jbowers,E10187,POS,POS: Issue Refund,2026-08-26
+rwalker,E10184,POS,POS: Approve Cash Reconciliation,2026-09-26
+mroth,E10030,POS,POS: Void Transaction,2026-08-22
+emccormick,E10176,POS,POS: Cashier,2026-09-17
+jparker,E10002,Payroll,Payroll: View Employee,2026-08-11
+rwalker,E10184,POS,POS: Price Override,2026-09-26
+temp.auditor,,Accounts Payable,AP: Approve Payment,2026-09-12
+lwallace,E10133,POS,POS: Cashier,2026-09-04
+lthomas,E10117,Payroll,Payroll: Enter Timecards,2026-08-29
+charper,E10179,POS,POS: Cashier,2026-08-01
+gmoody,E10067,POS,POS: Issue Refund,2026-08-06
+sarnold,E10032,POS,POS: Store Manager Admin,2026-08-28
+lwallace,E10133,POS,POS: Approve Cash Reconciliation,2026-09-04
+dgreer,E10175,POS,POS: Cashier,2026-08-25
+aanderson,E10143,POS,POS: Cashier,2026-09-17
+ahuber,E10119,POS,POS: Issue Refund,2026-09-09
+emiddleton,E10095,POS,POS: Cashier,2026-08-22
+jroth,E10065,POS,POS: Cashier,2026-07-30
+tvargas,E10160,POS,POS: Cashier,2026-08-06
+jholmes,E10189,POS,POS: Cashier,2026-09-05
+gmoody,E10067,POS,POS: Cashier,2026-08-06
+nmorris,E10011,Accounts Payable,AP: View Invoices,2026-08-22
+jbailey,E10019,Payroll,Payroll: Add Employee,2026-08-04
+rhunter,E10085,POS,POS: Void Transaction,2026-08-31
+kjones,E10064,Payroll,Payroll: Enter Timecards,2026-08-01
+kjones,E10064,Payroll,Payroll: View Employee,2026-08-01
+brichardson,E10047,POS,POS: Price Override,2026-08-07
+jcalderon,E10135,POS,POS: Void Transaction,2026-09-22
+pscott,E10103,POS,POS: Cashier,2026-08-29
+jchaney,E10105,POS,POS: Cashier,2026-08-19
+dbishop,E10108,POS,POS: Cashier,2026-08-06
+mgill,E10141,POS,POS: Cashier,2026-07-29
+cwalton,E10190,POS,POS: Cashier,2026-09-04
+cstevenson,E10191,POS,POS: Cashier,2026-09-18
+mreed,E10048,POS,POS: Void Transaction,2026-08-31
+dbentley,E10118,POS,POS: Issue Refund,2026-09-16
+jthompson,E10148,POS,POS: Cashier,2026-09-10
+jroth,E10065,POS,POS: Issue Refund,2026-07-30
+harias,E10102,POS,POS: Issue Refund,2026-09-07
+bzimmerman,E10005,Payroll,Payroll: View Employee,2026-08-11
+rwalker,E10184,Payroll,Payroll: Enter Timecards,2026-09-23
+jspence,E10015,Payroll,Payroll: View Employee,2026-03-09
+chahn,E10083,POS,POS: Approve Cash Reconciliation,2026-09-21
+amoreno,E10066,POS,POS: Cashier,2026-08-29
+jobrien,E10106,POS,POS: Cashier,2026-08-21
+ajones,E10010,Accounts Payable,AP: Enter Invoice,2026-09-03
+rsalinas,E10053,POS,POS: Cashier,2026-09-08
+ydrake,E10155,POS,POS: Cashier,2026-08-13
+jcalderon,E10135,POS,POS: Cashier,2026-09-22
+sharris,E10082,POS,POS: Cashier,2026-08-24
+dschroeder,E10078,POS,POS: Approve Cash Reconciliation,2026-08-05
+mthompson,E10009,Accounts Payable,AP: Approve Payment,2026-08-10
+swilliams,E10046,Payroll,Payroll: View Employee,2026-08-12
+cdavis,E10152,POS,POS: Void Transaction,2026-08-27
+sharris,E10082,Payroll,Payroll: View Employee,2026-08-12
+awilliams2,E10040,POS,POS: Cashier,2026-08-19
+brichardson,E10047,Payroll,Payroll: Enter Timecards,2026-09-26
+kvargas,E10124,POS,POS: Cashier,2026-09-30
+ccox,E10028,Payroll,Payroll: Enter Timecards,2026-09-02
+lgardner,E10186,POS,POS: Issue Refund,2026-09-24
+mhollis_old,E19998,Payroll,Payroll: View Employee,2026-09-11
+smerritt,E10013,Payroll,Payroll: View Employee,2026-08-08
+awilson,E10049,POS,POS: Void Transaction,2026-09-30
+jmejia,E10017,Payroll,Payroll: View Employee,2026-08-25
+ssmith,E10134,POS,POS: Cashier,2026-09-18
+jduncan,E10185,POS,POS: Price Override,2026-09-04
+mthompson,E10009,Accounts Payable,AP: Create Vendor,2026-08-10
+jcarrillo,E10137,POS,POS: Cashier,2026-08-10
+mbennett,E10100,POS,POS: Cashier,2026-09-22
+jperez,E10097,POS,POS: Cashier,2026-09-23
+chodge,E10150,POS,POS: Price Override,2026-09-23
+dharrison,E10168,Payroll,Payroll: Enter Timecards,2026-08-02
+thoffman,E10146,POS,POS: Cashier,2026-08-16
+lmaldonado,E10086,POS,POS: Cashier,2026-09-27
+sarnold,E10032,POS,POS: Cashier,2026-08-28
+chodge,E10150,Payroll,Payroll: Enter Timecards,2026-09-24
+mflores,E10099,POS,POS: Price Override,2026-09-22
+jreyes,E10172,POS,POS: Cashier,2026-08-14
+acrane,E10116,Payroll,Payroll: Enter Timecards,2026-08-21
+swolfe,E10153,POS,POS: Void Transaction,2026-09-03
+jcalderon,E10135,POS,POS: Issue Refund,2026-09-22
+sharris,E10082,POS,POS: Price Override,2026-08-24
+lthomas,E10117,POS,POS: Cashier,2026-08-13
+cwilson2,E10170,POS,POS: Issue Refund,2026-09-23
+mrogers,E10044,POS,POS: Cashier,2026-08-19
+rwalker,E10184,POS,POS: Store Manager Admin,2026-09-26
+smerritt,E10013,Payroll,Payroll: Enter Timecards,2026-08-08
+mpatton,E10012,Payroll,Payroll: Run Payroll,2026-08-21
+bhart,E10156,POS,POS: Cashier,2026-09-08
+chahn,E10083,POS,POS: Cashier,2026-09-21
+mstark,E10055,POS,POS: Cashier,2026-09-05
+ccox,E10028,POS,POS: Store Manager Admin,2026-09-23
+jrodriguez,E10173,POS,POS: Cashier,2026-08-13
+mbennett,E10100,POS,POS: Price Override,2026-09-22
+lfoster,E10171,POS,POS: Cashier,2026-08-23
+dbentley,E10118,POS,POS: Cashier,2026-09-16
+swilliams,E10046,POS,POS: Approve Cash Reconciliation,2026-08-19
+mgarcia,E10101,POS,POS: Issue Refund,2026-06-25
+acrane,E10116,POS,POS: Approve Cash Reconciliation,2026-09-23
+mbowman,E10110,POS,POS: Cashier,2026-08-22
+ejimenez,E10177,POS,POS: Cashier,2026-08-27
+rsalas,E10084,POS,POS: Void Transaction,2026-09-27
+cjackson,E10051,POS,POS: Cashier,2026-09-07
+jwaller,E10041,POS,POS: Cashier,2026-08-01
+dwhite,E10021,Payroll,Payroll: Add Employee,2026-09-19
+rhunter,E10085,POS,POS: Cashier,2026-08-31
+awilliams,E10008,Accounts Payable,AP: Enter Invoice,2026-09-04
+cdavis,E10152,POS,POS: Issue Refund,2026-08-27
+afranklin,E10114,POS,POS: Cashier,2026-09-21
+dharrison,E10168,POS,POS: Issue Refund,2026-09-08
+mroth,E10030,POS,POS: Cashier,2026-08-22
+bsanchez,E10161,POS,POS: Cashier,2026-08-30
+swolfe,E10153,POS,POS: Cashier,2026-09-03
+lyoung,E10069,POS,POS: Cashier,2026-09-03
+ahuber,E10119,POS,POS: Void Transaction,2026-09-09
+chahn,E10083,POS,POS: Void Transaction,2026-09-21
+alee,E10197,POS,POS: Cashier,2026-09-23
+wgardner,E10016,Payroll,Payroll: Enter Timecards,2026-08-22
+gmosley,E10111,POS,POS: Cashier,2026-08-14
+wgardner,E10016,Payroll,Payroll: Edit Pay Rate,2026-08-22
+gmoody,E10067,POS,POS: Void Transaction,2026-08-06
+jduncan,E10185,POS,POS: Issue Refund,2026-09-04
+chahn,E10083,POS,POS: Price Override,2026-09-21
+kjones,E10064,POS,POS: Store Manager Admin,2026-08-24
+jsmith,E10014,Payroll,Payroll: Enter Timecards,2026-08-24
+bzimmerman,E10005,Accounts Payable,AP: View Invoices,2025-11-24
+kjones,E10064,POS,POS: Price Override,2026-08-24
+avaldez,E10056,POS,POS: Cashier,2026-08-28
+cleon,E10107,POS,POS: Cashier,2026-08-02
+hjohnson,E10037,POS,POS: Cashier,2026-08-27
+mgarcia,E10101,POS,POS: Void Transaction,2026-06-25
+cwilson2,E10170,POS,POS: Void Transaction,2026-09-23
+gsolomon,E10145,POS,POS: Cashier,2026-08-23
+lthomas,E10117,POS,POS: Void Transaction,2026-08-13
+cford,E10112,POS,POS: Cashier,2026-08-10
+cking,E10029,POS,POS: Cashier,2026-08-15
+rburnett,E10068,POS,POS: Cashier,2026-08-03
+lthomas,E10117,POS,POS: Issue Refund,2026-08-13
+mflores,E10099,POS,POS: Approve Cash Reconciliation,2026-09-22
+aduncan,E10076,POS,POS: Cashier,2026-08-03
+smerritt,E10013,Payroll,Payroll: Edit Pay Rate,2026-08-08
+ssanford,E10174,POS,POS: Cashier,2026-08-11
+lwalters,E10031,POS,POS: Void Transaction,2026-08-22
+agreen,E10195,POS,POS: Cashier,2026-09-19
+rwalker,E10184,POS,POS: Cashier,2026-09-26
+swilliams,E10046,POS,POS: Store Manager Admin,2026-08-19
+yowens,E10006,Accounts Payable,AP: Approve Payment,2026-09-09
+lthomas2,E10193,POS,POS: Cashier,2026-08-21
+fjefferson,E10183,POS,POS: Cashier,2026-01-28
+snguyen,E10128,POS,POS: Cashier,2026-09-24
+noliver,E10132,POS,POS: Cashier,2026-08-02
+lwallace,E10133,POS,POS: Price Override,2026-09-04
+jsmith,E10014,Payroll,Payroll: Edit Pay Rate,2026-08-24
+cjohnston,E10154,POS,POS: Cashier,2026-09-29
+ahuber,E10119,POS,POS: Cashier,2026-09-09
+ezimmerman,E10157,POS,POS: Cashier,2026-09-10
+ndavis,E10034,POS,POS: Cashier,2026-09-29
+arichardson,E10140,POS,POS: Cashier,2026-08-14
+mflores,E10099,POS,POS: Store Manager Admin,2026-09-22
+bcarr,E10136,POS,POS: Cashier,2026-08-30
+kjones,E10064,POS,POS: Cashier,2026-08-24
+cwilliamson,E10159,POS,POS: Cashier,2026-08-18
+kbrewer,E10200,POS,POS: Cashier,2026-08-13
+caguirre,E10050,POS,POS: Cashier,2026-08-31
+cgutierrez,E10182,POS,POS: Cashier,2026-09-17
+shumphrey,E10077,POS,POS: Cashier,2026-08-08
+brichardson,E10047,POS,POS: Issue Refund,2026-08-07
+jscott,E10125,POS,POS: Cashier,2026-09-06
+jsmith,E10014,Payroll,Payroll: Add Employee,2026-08-24
+brichardson,E10047,POS,POS: Cashier,2026-08-07
+njenkins,E10043,POS,POS: Cashier,2026-08-05
+mthompson,E10009,Accounts Payable,AP: View Invoices,2026-08-10
+mroth,E10030,POS,POS: Issue Refund,2026-08-22
+cking,E10029,POS,POS: Void Transaction,2026-08-15
+lgardner,E10186,POS,POS: Void Transaction,2026-09-24
+mpayne,E10127,POS,POS: Cashier,2026-09-03
+wbernard,E10169,POS,POS: Cashier,2026-08-28
+swoods,E10089,POS,POS: Cashier,2026-08-03
+rdillon,E10081,POS,POS: Cashier,2026-09-16
+jspence,E10015,Payroll,Payroll: Edit Pay Rate,2026-03-09
+kdavis,E10057,POS,POS: Cashier,2026-08-06
+wgardner,E10016,Payroll,Payroll: Add Employee,2026-08-22
+lgardner,E10186,POS,POS: Cashier,2026-09-24
+kgordon,E10094,POS,POS: Cashier,2026-09-07
+dwhite,E10021,Payroll,Payroll: View Employee,2026-09-19
+acrane,E10116,POS,POS: Price Override,2026-09-23
+mflores,E10099,POS,POS: Cashier,2026-09-22
+ccox,E10028,Payroll,Payroll: View Employee,2026-09-02
+nmorris,E10011,Accounts Payable,AP: Approve Payment,2026-08-22
+rbishop,E10120,POS,POS: Cashier,2026-09-04
+rwalker,E10184,Payroll,Payroll: View Employee,2026-09-23
+gdixon,E10180,POS,POS: Cashier,2026-08-20
+bmendez,E10074,POS,POS: Cashier,2026-09-08
+mvilla,E10059,POS,POS: Cashier,2026-08-02
+jduncan,E10185,Payroll,Payroll: Enter Timecards,2026-08-01
+dshort,E10004,Payroll,Payroll: View Employee,2026-08-09
+mbennett,E10100,POS,POS: Void Transaction,2026-09-22
+dshort,E10004,POS,POS: Approve Cash Reconciliation,2026-08-26
+dsoto,E10139,POS,POS: Cashier,2026-06-02
+ssmith,E10134,POS,POS: Issue Refund,2026-09-18
+cking,E10029,POS,POS: Price Override,2026-08-15
+jduncan,E10185,POS,POS: Void Transaction,2026-09-04
+ccox,E10028,POS,POS: Cashier,2026-09-23
+nscott,E10151,POS,POS: Void Transaction,2026-08-22
+mramirez,E10194,POS,POS: Cashier,2026-09-27
+swilliams,E10046,POS,POS: Cashier,2026-08-19
+djones,E10164,POS,POS: Cashier,2026-08-04
+ssmith,E10134,Payroll,Payroll: Enter Timecards,2026-09-14
+arice,E10020,Payroll,Payroll: View Employee,2026-09-15
+swilliams,E10046,Payroll,Payroll: Enter Timecards,2026-08-12
+harias,E10102,POS,POS: Void Transaction,2026-09-07
+ichavez,E10073,POS,POS: Cashier,2026-08-10
+chodge,E10150,POS,POS: Approve Cash Reconciliation,2026-09-23
+lharvey,E10070,POS,POS: Cashier,2026-09-27
+cwilson2,E10170,POS,POS: Cashier,2026-09-23
+sharris,E10082,Payroll,Payroll: Enter Timecards,2026-08-12
+nscott,E10151,POS,POS: Cashier,2026-08-22
+lvalenzuela,E10038,POS,POS: Cashier,2026-09-19
+cking,E10029,POS,POS: Issue Refund,2026-08-15
+temp.auditor,,Accounts Payable,AP: View Invoices,2026-09-12
+rhunter,E10085,POS,POS: Issue Refund,2026-08-31
+msilva,E10007,Accounts Payable,AP: View Invoices,2026-08-20
+amoreno,E10066,POS,POS: Void Transaction,2026-08-29
+awilson,E10049,POS,POS: Cashier,2026-09-30
+mdavis,E10063,POS,POS: Cashier,2026-09-26
+jscott,E10125,POS,POS: Price Override,2026-09-06
+knorris,E10033,POS,POS: Cashier,2026-08-28
+mnavarro,E10071,POS,POS: Cashier,2026-08-29
+nscott,E10151,POS,POS: Issue Refund,2026-08-22
+yowens,E10006,Accounts Payable,AP: View Invoices,2026-09-09
+chodge,E10150,POS,POS: Cashier,2026-09-23
+jspence,E10015,Payroll,Payroll: Add Employee,2026-03-09
+kjones,E10064,POS,POS: Approve Cash Reconciliation,2026-08-24
+svc_possync,,POS,POS: Store Manager Admin,2026-09-20
+lwallace,E10133,POS,POS: Store Manager Admin,2026-09-04
+wshepard,E10003,Payroll,Payroll: View Employee,2026-09-04
+mreed,E10048,POS,POS: Cashier,2026-08-31
+nbell,E10080,POS,POS: Cashier,2026-09-20
+awilliams,E10008,Accounts Payable,AP: View Invoices,2026-09-04
+arose,E10052,POS,POS: Cashier,2026-08-09
+jsmith,E10014,Payroll,Payroll: View Employee,2026-08-24
+myu,E10054,POS,POS: Cashier,2026-09-20
+lthomas,E10117,POS,POS: Price Override,2026-08-13
+ajones,E10010,Accounts Payable,AP: View Invoices,2026-09-03
+chodge,E10150,Payroll,Payroll: View Employee,2026-09-24
+astevens,E10075,POS,POS: Cashier,2026-08-18
+jburns,E10061,POS,POS: Cashier,2026-09-18
+acrane,E10116,Payroll,Payroll: View Employee,2026-08-21
+asmith,E10109,POS,POS: Cashier,2026-08-17
+jreyes,E10172,POS,POS: Price Override,2026-08-14
+lwallace,E10133,Payroll,Payroll: View Employee,2026-08-04
+jcollins,E10123,POS,POS: Cashier,2026-09-09
+mbennett,E10100,Payroll,Payroll: Enter Timecards,2026-08-29
+sharris,E10082,POS,POS: Approve Cash Reconciliation,2026-08-24
+bdean,E10181,POS,POS: Cashier,2026-08-10
+staylor,E10158,POS,POS: Cashier,2026-08-21

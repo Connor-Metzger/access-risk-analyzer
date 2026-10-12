@@ -1,0 +1,5 @@
+rule_id,entitlement_a,entitlement_b,risk_description,severity
+SOD-01,AP: Create Vendor,AP: Approve Payment,Fictitious vendor fraud: one person can create a vendor and pay it,High
+SOD-02,POS: Issue Refund,POS: Approve Cash Reconciliation,Refund fraud concealment: one person can refund and approve the drawer count,High
+SOD-03,Payroll: Edit Pay Rate,Payroll: Approve Payroll,Pay manipulation: one person can change pay and approve the payroll,High
+SOD-04,Payroll: Add Employee,Payroll: Run Payroll,Ghost employee: one person can add a worker and run payroll,High

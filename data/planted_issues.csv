@@ -1,0 +1,25 @@
+issue_type,username,employee_id,application,detail,note
+Terminated User - Active Access,mgill,E10141,POS,,Left recently; POS account never disabled
+Terminated User - Active Access,bsanchez,E10161,POS,,Login AFTER termination date (possible shared credential)
+Terminated User - Active Access,msilva,E10007,Accounts Payable,,AP access survived termination
+Terminated User - Active Access,jroth,E10065,POS,,Two applications left enabled
+Terminated User - Active Access,jroth,E10065,Payroll,,Two applications left enabled
+Terminated User - Active Access,jspence,E10015,Payroll,,Terminated 200 days ago; also dormant
+Inactive Account (90+ days),jspence,E10015,Payroll,,Terminated 200 days ago; also dormant
+Inactive Account (90+ days),dsoto,E10139,POS,,No login for 120 days
+Inactive Account (90+ days),fjefferson,E10183,POS,,No login for 245 days
+Inactive Account (90+ days),mgarcia,E10101,POS,,No login for 97 days
+Inactive Account (90+ days),amartin,E10018,Payroll,,No login for 150 days
+Inactive Account (90+ days),bzimmerman,E10005,Accounts Payable,,No login for 310 days
+Separation of Duties Violation,mthompson,E10009,Accounts Payable,SOD-01,Clerk can create a vendor and pay it
+Separation of Duties Violation,nmorris,E10011,Accounts Payable,SOD-01,Vendor specialist granted payment approval
+Separation of Duties Violation,chahn,E10083,POS,SOD-02,Can issue refunds and approve the drawer count that hides them
+Separation of Duties Violation,jsmith,E10014,Payroll,SOD-03,Can change pay rates and approve the payroll
+Excess Privilege,sarnold,E10032,POS,POS: Store Manager Admin,Covered for manager on vacation; never removed
+Excess Privilege,dschroeder,E10078,POS,POS: Approve Cash Reconciliation,Copied access from manager's profile
+Excess Privilege,jreyes,E10172,POS,POS: Price Override,Granted during holiday rush
+Excess Privilege,jscott,E10125,POS,POS: Price Override,Cashier with price override
+Orphaned Account,svc_possync,,POS,,Service account with no named owner
+Orphaned Account,temp.auditor,,Accounts Payable,,"Contractor account; contract ended, never in HR"
+Orphaned Account,mhollis_old,E19998,Payroll,,Points to an employee ID that doesn't exist
+Orphaned Account,"=HYPERLINK(""https://example.invalid"",""Click me"")",E19999,POS,,Malicious username; must be neutralized in every output
